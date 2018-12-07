@@ -15,7 +15,7 @@ python train.py
 ## Test LGAN
 
 ```bash
-python dense_sample.py --dataset mnist --dataroot ./mnist --imagesSize 32 --nz 10 --nc 1 --cuda --netG "./results/mnist/netG_epoch_24.pth" --outf "./results/mnist"
+python test.py
 ```
 
 ## Result
